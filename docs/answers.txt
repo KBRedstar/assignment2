@@ -1,1 +1,20 @@
-
+# Completed Git Lab Tutorials on 2/22/2024
+# Set up GitHub account in January 2024
+1. Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 464 bytes | 464.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/KBRedstar/assignment2
+   1e1055d..d3e9235  master -> master
+2. There have been 8 commits. Used command: git log
+3. The file was modified last: Thu Feb 22 20:41:56 2024 -0600. Used command: git log -- README.md
+4. Branches are used to logically divide up work in a lightweight manner and to work on seperate code in parallel to each other.
+5. Git log displays information about the commits to the repository, while git status does not
+6. git log --follow Vehicle.h
+7. git log --grep='file'
+8. Inheritance is a mechanism that allows one class to reuse the code of another class. Polymorphism is the ability of a class and its variables to change form to suit the current objective. Encapsulation is a style of programming in which data of a certain class is contained and hidden inside its class, preventing other methods from tampering with it.
+9. In the Integration Manager workflow, each developer pulls from the same central repository, but makes pulls and pushes to their own public repository. In the Dictator and Lieutenants workflow, each developer pulls from the same central repository, but pushes to an assigned lieutenant repository, which merges changes for some developers and solves conflicts, and the lieutenant repositories push the changes to a dictator repository, which merges all changes, solves any conflicts, and then pushes back to the central repository.
+10. A team of 100 developers would benefit from a Dictator and Lieutenants workflow over a Centralized one in the capacity of not having to worry about resolving conflicts with every other developers' changes. By having a lieutenant repository assigned to various groups of developers, they would only have to worry about resolving issues in their immediate group.
